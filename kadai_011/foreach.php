@@ -13,7 +13,6 @@
     </p>
     <p>
     <?php
-        // $name_data = ['id' => 'id', 'name' => '名前', 'age' => '年齢'];
         $personal_data = ['id' => '1' , '名前' => '侍太郎' , '年齢' => '30'];
 
         foreach($personal_data as $key => $value){
