@@ -34,10 +34,10 @@
     <?php
         function sort_2way($nums,$oder){
             if($oder == 'asc'){
-                sort($nums);
+                asort($nums);
                 echo '昇順にソートします。<br>';
             }elseif($oder == 'desc') {
-                rsort($nums);
+                arsort($nums);
                 echo '降順にソートします。<br>';
             }
             foreach($nums as $value){
