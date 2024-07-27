@@ -10,10 +10,10 @@
 
     // function sort_2way($nums){
     //     $oder_up = $nums;
-    //     sort($oder_up);
+    //     asort($oder_up);
 
     //     $oder_down = $nums;
-    //     rsort($oder_down);
+    //     arsort($oder_down);
 
     //     echo '昇順にソートします。<br>';
     //     foreach($oder_up as $value){
