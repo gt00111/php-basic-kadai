@@ -16,6 +16,10 @@
                 $this->name = $name;
                 $this->price = $price;
             }
+
+            public function show_price(){
+                return "$this->price";
+            }
         }
         $food = new Food('potato',250);
         print_r($food);
@@ -33,9 +37,20 @@
                 $this->height = $height;
                 $this->weight = $weight;
             }
+
+            public function show_height(){
+                return "$this->height";
+            }
         }
         $animal = new Animal('dog',60,5000);
         print_r($animal);
+        ?>
+    </p>
+    <p>
+        <?php
+            echo $food->show_price();
+            echo '<br>';
+            echo $animal->show_height();
         ?>
     </p>
 </body>
